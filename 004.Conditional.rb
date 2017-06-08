@@ -40,6 +40,11 @@ else
 end
 
 
+print "Input Character : "
+d = gets().to_s
+
+puts d.include?('hai')
+
 
 # Resources
 # https://code.tutsplus.com/articles/ruby-for-newbies-conditional-statements-and-loops--net-16537
